@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thesaurus</title>
+  </head>
+  <body>
+    <h1 class="h1">This is a thesaurus</h1>
+    <p class="p">Using Free Dictionary API</p>
+    <div class="wordInput">
+      <label for="word" class="label">Enter Word</label>
+      <input id="word" type="text" class="input" />
+      <button id="submit" class="submit">Submit</button>
+    </div>
+    <div class="results-container">
+      <div class="synonym-section">
+        <h2 class="synonym">Synonyms:</h2>
+        <p style="display: none" id="synonym" class="synonymp"></p>
+      </div>
+      <div class="antonym-section">
+        <h2 class="antonym">Antonyms:</h2>
+        <p style="display: none" id="antonym" class="antonymp"></p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
